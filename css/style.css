@@ -1,0 +1,213 @@
+/* landing page starts here */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 60px);
+}
+
+.navbar {
+  padding-right: 2.5rem;
+  background-color: #45260a;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  color: #e68127;
+  font-size: 1.56rem;
+  font-weight: bold;
+  padding-left: 2.5rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:hover {
+  color: #e68127;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-left: 2.5rem;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #e68127;
+  border-bottom: 2px solid white;
+}
+
+#timuse {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/landing-page-9.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh;
+}
+
+#timuse h1 {
+  color: white;
+}
+
+#order-now {
+  background-color: #e67e22;
+  border: #e67e22;
+}
+#order-now:hover {
+  background-color: #cf711f;
+}
+
+/* ====================landing page ends here================ */
+
+/* =================about us section starts here=============== */
+
+.intro-about-us {
+  color: #45260a;
+  font-weight: 700;
+}
+
+/* =================about us ends  here=============== */
+
+/* ==================menu section starts here================== */
+#our-menu {
+  background-color: #fdf2e9;
+}
+
+.all-cards {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+.info {
+  line-height: 1.1rem;
+}
+
+.cost span {
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  background-color: #e67e22;
+}
+
+.add-to-cart:hover {
+  background-color: #cf711f;
+}
+
+.cursor {
+  cursor: pointer;
+  border-bottom-left-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+/* ====================menu section ends here================== */
+
+/*====================testimonials starts here=================*/
+
+/* .container-testimonials {
+  background-color: #fdf2e9;
+} */
+
+.testimony-card {
+  background-color: #fdf2e9;
+  margin: 0 1.25rem;
+  padding: 0 1.25rem;
+  border-radius: 1.25rem;
+}
+
+.card-img-top {
+  max-width: 6.25rem;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px 4px #95abbb;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+h4 {
+  color: #e67e22;
+}
+
+.card-body p {
+  font-size: 1.125rem;
+  color: #566176;
+}
+
+.carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -35px;
+  color: red;
+  background-color: #e67e22;
+  margin-left: 45%;
+  margin-right: 45%;
+  border-radius: 10px;
+}
+
+#carouselExampleCaptions {
+  color: #e67e22;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+/*====================testimonials ends here====================*/
+
+/*==================contact us starts here======================*/
+
+.contact {
+  background-color: #fdf2e9;
+}
+
+.form_box {
+  background-color: #e78732;
+  padding: 30px;
+  border: 1px solid #666;
+  border-radius: 1.25rem;
+  margin-bottom: 45px;
+}
+
+#button-sub {
+  background-color: #45260a;
+  border: #45260a;
+}
+
+#button-sub:hover {
+  background-color: white;
+  color: black;
+}
+
+/* contact us ends here */
+
+/* footer starts here */
+
+.footer {
+  background-color: #45260a;
+}
+
+#timuse-footer {
+  color: #e68127;
+}
